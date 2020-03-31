@@ -20,6 +20,19 @@ header {
 
 /* GRID LAYOUT */
 
+.pic {
+    grid-area: pic;
+    background-image: url("../img/IMG_8251.png");
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    color: white;
+    padding-top: 130px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: blue;
+}
+
 .container{
     clear: both;
     display: grid;
@@ -28,7 +41,8 @@ header {
     background-color: aqua;
     grid-template-rows: auto auto;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
+    grid-template-areas:
+    "pic pic pic"    
     "topleft topleft topright"
     "main main main";
 }
@@ -41,6 +55,7 @@ header {
      padding-top: 130px;
     padding-left: 50px;
     padding-right: 50px;
+    background-color: purple;
         
 }
 
@@ -57,6 +72,7 @@ header {
 .main {
     grid-area: main;
     background-size: cover;
+    background-color: beige;
 }
 
 /* end */
@@ -67,18 +83,19 @@ header {
 .accordion h2,
 .accordion p {
   padding: 10px;
-  border: 1px solid black;
+  border: 5px solid blue;
   border-bottom: 0;
 }
 .accordion h2:last-of-type,
 .accordion p:last-of-type {
-  border-bottom: 1px solid black;
+  border-bottom: 5px solid blue;
 }
 .accordion h2 a,
 .accordion p a {
   display: block;
-  color: black;
+  color: purple;
   font-weight: bold;
+    
 }
 
 .accordion h2 {
