@@ -52,15 +52,13 @@ header {
 
 .pic {
     grid-area: pic;
-    background-image: url("../img/IMG_8251.png");
+    background-image: url("../img/cookie.JPG");
     background-size: cover;
     background-position: center center;
     text-align: center;
     color: white;
-    padding-top: 130px;
-    padding-left: 50px;
-    padding-right: 50px;
-    background-color: blue;
+    padding-top: 250px;
+    background-color: beige;
 }
 
 .container{
@@ -68,7 +66,7 @@ header {
     display: grid;
     max-width: 1200px;
     /*padding: 20px;*/
-    background-color: aqua;
+    background-color: whitesmoke;
     grid-template-rows: auto auto auto auto;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
@@ -114,15 +112,13 @@ header {
 
 .pic2 {
     grid-area: pic2;
-    background-image: url("../img/IMG_8251.png");
+    background-image: url("../img/rolls.JPG");
     background-size: cover;
     background-position: center center;
     text-align: center;
     color: white;
-    padding-top: 130px;
-    padding-left: 50px;
-    padding-right: 50px;
-    background-color: blue;
+    padding-top: 150px;
+    background-color: beige;
 }
 /* end */
 
@@ -140,17 +136,18 @@ header {
 .accordion p {
   padding: 10px;
   border-bottom: 3.3px solid #02075D;
+    
 }
 .accordion h2:last-of-type,
 .accordion p:last-of-type {
   border-bottom: 3.3px solid #02075D;
+    border-width: 4.3px;
 }
 .accordion h2 a,
 .accordion p a {
   display: block;
   color: #02075D;
   font-weight: bold;
-    
 }
 
 .accordion h2 {
@@ -159,10 +156,13 @@ header {
 }
 .accordion p {
   border-top: 0;
-  font-size: 12px;
+  font-size: 20px;
   background: #efefef;
+    margin: auto;
+/*
   margin-top: 0;
   margin-bottom: 0;
+*/
   Display: flow-root;
 }
 .accordion p:last-of-type {
